@@ -133,7 +133,7 @@ describe("SUBTAPE FACTORY CONTRACT", function () {
       const amount = payout.royaltyAmount;
 
       expect(toAddress).to.equal(signerAddress);
-      expect(amount).to.equal(ethers.utils.parseEther("0.05"));
+      expect(amount).to.equal(ethers.utils.parseEther("0.5"));
     });
   });
 });
